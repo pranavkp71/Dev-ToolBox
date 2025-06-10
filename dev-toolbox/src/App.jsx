@@ -1,13 +1,14 @@
-import React from 'react'
+import Navbar from "./components/Navbar";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <div className='container bg-red-500 mx-auto'>
-        <h1>Hello tailwindcssv4 and react</h1>
+    <div className="bg-gray-900 text-white min-h-screen">
+      <Navbar />
+      <div className="p-6">
+        <h2 className="text-2xl font-bold mb-4">Welcome to the Toolbox</h2>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
